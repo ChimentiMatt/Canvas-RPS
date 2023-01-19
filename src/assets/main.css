@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+canvas{
+  display: block; 
+  background-color: #1a1a1a;
+}
+
+#control-panel{
+  position: absolute;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  top: 10rem;
+  padding: 1rem;
+  font-family: Arial;
+}
+
+#control-panel input {
+  padding: .5rem;
+  width: 4rem;
+  margin: .5rem .5rem 0 0 ;
+}
+
+#control-panel button{
+  border: none;
+  padding: .5rem;
+}
+
+#control-panel button:hover{
+  background-color: yellow;
+}
+
+#current-scores{
+  margin: 2rem 0 2rem 0;
+}

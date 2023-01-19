@@ -1,4 +1,5 @@
-# canvas-rps
+# Canvas RPS  👊📝✂️
+## https://canvas-rps.herokuapp.com/
 
 ## Project Setup
 

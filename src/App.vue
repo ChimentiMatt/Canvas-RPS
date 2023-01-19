@@ -255,7 +255,7 @@ export default {
           this.winner = 'Human';
           this.clearMessages();
           this.matchWonMessage();
-          this.playAgainMessage() ;
+          this.playAgainMessage();
         }
         else if (this.outcomes.human.wins < this.outcomes.computer.wins) {
           this.outcomes.computer.roundsWon += 1;
@@ -353,7 +353,6 @@ export default {
       this.ctx.fillRect((this.canvas.width / 2) - (this.ctx.measureText(`Play Again?`).width /2) - 10, 430, 275, 100)
       this.ctx.fillStyle = 'black';
       this.ctx.fillText(`Play Again?`, (this.canvas.width / 2) - (this.ctx.measureText(`Play Again?`).width /2), 500);
-
     },
 
     createRPS() {
@@ -422,7 +421,6 @@ export default {
         }
       }
       else document.querySelector('canvas').style.cursor = 'default';
-
     },
 
     initialization() {
